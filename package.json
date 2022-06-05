@@ -1,0 +1,19 @@
+{
+  "name": "plategen",
+  "version": "1.0.0",
+  "description": "gerador de placas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adenu/plategen.git"
+  },
+  "author": "Adenu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adenu/plategen/issues"
+  },
+  "homepage": "https://github.com/adenu/plategen#readme"
+}
