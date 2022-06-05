@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fonte Placa';
+    src: url('../fonts/fonte-placa.woff2') format('woff2'),
+         url('../fonts/fonte-placa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 5em;
+}
+div#placa {
+  border: 1em solid black;
+  align-self: center;
+  min-height: 100px;
+  border-radius: 1em;
+}
+
+.fonte-placa {
+    font-family: 'Fonte Placa';
+    font-size: 5em;
+}
