@@ -23,6 +23,10 @@ json.forEach((entrada) => {
   let tamanhoPalavra = entrada.palavra.length;
   if (tamanhoPalavra === 7) {
     entrada.palavra = entrada.palavra.replace("ç", "c");
+    entrada.palavra = entrada.palavra.replace("ã", "a");
+    entrada.palavra = entrada.palavra.replace("é", "e");
+    entrada.palavra = entrada.palavra.replace("ê", "e");
+    entrada.palavra = entrada.palavra.replace("í", "i");
     filtroTamanho.push(entrada.palavra);
   }
 });
