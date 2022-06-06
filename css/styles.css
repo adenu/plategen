@@ -7,21 +7,16 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-items: center;
   margin: 5em;
   font-size: 16px;
 }
 div#placa {
   border: 0.5625em solid black;
-  align-self: center;
-  min-height: 100px;
   border-radius: 1.5625em;
-
   width: 62.5em;
   height: 20.125em;
   position: relative;
+  margin: 0 auto;
 }
 
 #placa-header {
@@ -48,6 +43,8 @@ div#placa {
   left: 50%;
   transform: translate(-50%, -50%);
   padding-top: 4.6875rem; 
+  width: 100%;
+  text-align: center;
 }
 .fonte-placa {
   font-family: "Fonte Placa";
