@@ -14,8 +14,7 @@ for (let i = 0; i < data.length; i++) {
 }
 
 // Filtros
-let filtroTamanho = [];
-let filtroChars = [];
+let filtroTamanho, filtroChars = [];
 
 json.forEach(entrada => {
   let tamanhoPalavra = entrada.palavra;
@@ -55,7 +54,6 @@ filtroTamanho.forEach(entrada => {
   entradaScore === 3 && filtroChars.push(entrada.toUpperCase());
 
 });
-
 
 const listaFinal = JSON.stringify(filtroChars);
 
