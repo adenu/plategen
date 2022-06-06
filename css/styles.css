@@ -56,3 +56,12 @@ div#placa {
   font-family: "Fonte Placa";
   font-size: 10.625em;
 }
+
+@media only screen and (max-width: 360px) {
+  div#placa {
+    height: 25em;
+}
+  #numero-placa {
+    line-height: 0.8;
+  }
+}
